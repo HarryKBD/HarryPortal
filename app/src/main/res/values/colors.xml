@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 앱 기본 색상 -->
+    <color name="primary">#1A237E</color>
+    <color name="primary_variant">#121858</color>
+    <color name="secondary">#304FFE</color>
+
+    <!-- 배경 색상 -->
+    <color name="background">#F0F2F5</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- 텍스트 색상 -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#666680</color>
+
+    <!-- 상호작용 -->
+    <color name="ripple_color">#1A1A237E</color>
+
+    <!-- 메뉴 카드 아이콘 배경색 (메뉴 추가 시 여기에 색상 추가) -->
+    <color name="menu_color_web">#0097A7</color>    <!-- 청록 - 웹 페이지 -->
+    <color name="menu_color_map">#E65100</color>    <!-- 주황 - 카카오 지도 -->
+    <color name="menu_color_3">#2E7D32</color>      <!-- 초록 - 예비 메뉴 3 -->
+    <color name="menu_color_4">#6A1B9A</color>      <!-- 보라 - 예비 메뉴 4 -->
+    <color name="menu_color_5">#AD1457</color>      <!-- 핑크 - 예비 메뉴 5 -->
+    <color name="menu_color_6">#37474F</color>      <!-- 회청 - 예비 메뉴 6 -->
+    <color name="menu_color_7">#558B2F</color>      <!-- 연두 - 예비 메뉴 7 -->
+    <color name="menu_color_8">#4527A0</color>      <!-- 남보 - 예비 메뉴 8 -->
+    <color name="menu_color_9">#00695C</color>      <!-- 틸 - 예비 메뉴 9 -->
+    <color name="menu_color_10">#BF360C</color>     <!-- 적갈 - 예비 메뉴 10 -->
+</resources>

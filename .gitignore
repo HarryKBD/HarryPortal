@@ -1,0 +1,31 @@
+# Android Studio
+*.iml
+.gradle/
+.idea/
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# App build outputs
+app/build/
+app/release/
+
+# Keystore files (보안)
+*.jks
+*.keystore
+
+# Google services
+google-services.json
+
+# Gradle
+gradle-wrapper.jar

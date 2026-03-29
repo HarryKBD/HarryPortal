@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HarryPortal</string>
+    <string name="dashboard_subtitle">메뉴를 선택하세요</string>
+    <string name="menu_icon_desc">메뉴 아이콘</string>
+</resources>

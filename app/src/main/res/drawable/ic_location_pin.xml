@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="40dp"
+    android:viewportWidth="32"
+    android:viewportHeight="40">
+    <!-- 핀 몸체 -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M16,0C9.37,0 4,5.37 4,12c0,9 12,28 12,28S28,21 28,12C28,5.37 22.63,0 16,0z" />
+    <!-- 핀 내부 원 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,12m-5,0a5,5 0 1,1 10,0a5,5 0 1,1 -10,0" />
+</vector>
