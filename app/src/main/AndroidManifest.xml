@@ -16,10 +16,10 @@
         android:theme="@style/Theme.HarryPortal"
         android:usesCleartextTraffic="true">
 
-        <!-- Kakao Maps Native App Key -->
+        <!-- Naver Maps Client ID (네이버 클라우드 플랫폼에서 발급) -->
         <meta-data
-            android:name="com.kakao.vectormap.APP_KEY"
-            android:value="YOUR_KAKAO_NATIVE_APP_KEY" />
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="YOUR_NAVER_CLIENT_ID" />
 
         <activity
             android:name=".MainActivity"
@@ -35,7 +35,7 @@
             android:exported="false" />
 
         <activity
-            android:name=".KakaoMapActivity"
+            android:name=".NaverMapActivity"
             android:exported="false" />
 
     </application>

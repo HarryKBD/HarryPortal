@@ -15,7 +15,7 @@ class WebPageActivity : AppCompatActivity() {
     private lateinit var binding: ActivityWebPageBinding
 
     companion object {
-        private const val TARGET_URL = "http://172.22.206.45:8931/doddle/"
+        private const val TARGET_URL = "http://harrykbd.iptime.org:8988/exchange_rate/"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

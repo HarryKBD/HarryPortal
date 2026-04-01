@@ -18,22 +18,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.kakao.vectormap.MapView
-            android:id="@+id/mapView"
+        <!-- 네이버 지도 Fragment 컨테이너 -->
+        <fragment
+            android:id="@+id/mapFragment"
+            android:name="com.naver.maps.map.MapFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-
-        <!-- API 키 오류 시 표시할 오버레이 -->
-        <TextView
-            android:id="@+id/tvError"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:padding="32dp"
-            android:textColor="#e53935"
-            android:textSize="16sp"
-            android:background="#FFFFFF"
-            android:visibility="gone" />
 
         <!-- POI 범례 -->
         <com.google.android.material.card.MaterialCardView

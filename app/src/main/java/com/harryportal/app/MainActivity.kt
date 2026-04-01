@@ -27,11 +27,11 @@ class MainActivity : AppCompatActivity() {
         ),
         MenuItem(
             id = 2,
-            title = "카카오 지도",
+            title = "네이버 지도",
             description = "서울 주요 명소\n지도 보기",
             iconRes = R.drawable.ic_map,
             colorRes = R.color.menu_color_map,
-            activityClass = KakaoMapActivity::class.java
+            activityClass = NaverMapActivity::class.java
         )
         // 새 메뉴를 여기에 추가하세요. 예:
         // MenuItem(
